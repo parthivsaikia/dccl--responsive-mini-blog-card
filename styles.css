@@ -1,0 +1,72 @@
+@font-face {
+    font-family: myfont;
+    src: url(fonts/Sora-VariableFont_wght.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "myfont";
+}
+.container{
+    margin-top: 150px;
+    width: 384px;
+    padding:  0 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #FAFAF9;
+    border-radius: 16px;
+}
+
+.image-holder{
+    height: 40%;
+    width: 100%;
+    border-radius: 16px;
+
+}
+
+.image-holder img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: 1rem auto;
+    border-radius: 16px;
+}
+
+h1{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #20293A;
+}
+
+.body{
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #6C727F;
+    font-weight:normal;
+}
+
+.small-text{
+    font-size: 0.75rem;
+    /* border: 1px solid ; */
+    /* border-top-color: red; */
+    padding: 5px 0;
+    width: 110%;
+    margin: 0 auto;
+    color: #6C727F;
+}
+
+.tag{
+    font-size: 0.625rem;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    padding: 1% 4%;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
